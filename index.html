@@ -118,16 +118,17 @@
   @media (min-width:840px){
     .order-layout{grid-template-columns:1fr 360px;align-items:start;}
   }
+  .catalog{
+min-width:0;
+}
 
   .category-tabs{
-    display:flex;
-    gap:6px;
-    overflow-x:auto;
-    padding-bottom:8px;
-    margin-bottom:10px;
-    -ms-overflow-style:none;
-    scrollbar-width:thin;
-  }
+display:flex;
+flex-wrap:wrap;
+gap:6px;
+padding-bottom:8px;
+margin-bottom:10px;
+}
   .category-tab{
     flex:0 0 auto;
     font-family:var(--font-body);
